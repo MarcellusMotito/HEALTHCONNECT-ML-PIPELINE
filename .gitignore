@@ -1,0 +1,15 @@
+# Docs
+docs/
+
+# Models
+models/
+
+# Data
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+
+# Test
+.pytest_cache/   
