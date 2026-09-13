@@ -23,3 +23,23 @@ Building a predictive pipeline that identifies patients likely to miss their med
 - Handle class imbalance (SMOTE, class weighting)  
 - Feature engineering for improved predictors  
 - Hyperparameter tuning and advanced evaluation metrics
+
+
+## UPDATES  
+
+### Project Structure Changes  
+- **data/processed/** → Updated to use `Cleaned_Data.csv` (engineered dataset from Data Science track).  
+- **models/** → Now includes `gradient_boosting` alongside `log_reg`, `random_forest`, and `xgboost`.  
+- **tests/** → `test_model.py` updated to validate Gradient Boosting integration; pytest passed successfully.  
+
+### Deliverables Added  
+- Integrated pipeline notebook (`pipeline_dev.ipynb`) centered on Gradient Boosting candidate model.  
+- Validation checks for engineered features and numeric scaling.  
+ 
+  
+
+### Next Steps  
+- Implement class imbalance handling (SMOTE, class weighting).  
+- Integrate experiment tracking (MLflow or similar) for reproducibility.  
+- Conduct deeper model comparison and hyperparameter tuning.  
+- Document reproducibility and prepare for deployment readiness.  
